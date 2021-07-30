@@ -1,0 +1,52 @@
+/*
+1. element selector h1{}, body{}
+2. id selector #idname{}
+3. class selector .classname{}
+4. universal - *{}
+*/
+
+h1{
+    color: orange;
+    background: white;
+  }
+  
+  body{
+    background: black;
+    color: orange;
+    font-size: 20px;
+    text-align: center;
+  }
+  
+  button{
+    background: blue;
+    width: 100px;
+    height: 30px;
+    border-radius: 25px;
+    cursor: pointer;
+  }
+  
+  button:hover{
+    color: white;
+  }
+  
+  #heading1{
+    background: orange;
+    color: black;
+  }
+  
+  .divi{
+    background: green;
+    color: white;
+    width:200px;
+    font-size: large;
+    padding: 20px;
+    border: 3px solid;
+    margin: 10px 0px;
+    
+  }
+  
+  *{
+    margin: 10px;
+   
+    background: cyan;
+  }
